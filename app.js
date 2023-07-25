@@ -62,5 +62,5 @@ app.get('*',  (req, res) => {
 
 
 app.listen(port, () => {
-    console.log(`App listening on port ${port.toString().magenta}`.cyan);
+    console.log(`App listening on port ${port}`);
 });
